@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #fafaf8;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #fff;
+}
+
+.logo {
+  width: 2.7rem;
+  height: 3.25rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -5%;
+  line-height: 3.75rem;
+  color: #141413;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 3.25rem 3rem;
+  width: 37.125rem;
+  margin: 0 auto;
+}
+
+.ingredient-input {
+  padding: 9px 13px;
+  width: 24.94rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.add-ingredient-btn {
+  background-color: #141413;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 11.44rem;
+  padding: 9px 17px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-ingredient-btn:hover {
+  background-color: #141413;
+  opacity: 0.9;
+}
+
+.input-form {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  width: 37.125rem;
+}
+
+.ingredient-list-title {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 2.375rem;
+  color: #141413;
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+}
+
+.ingredient-item {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #475467;
+  margin: 1.125rem 0;
+  font-weight: 400;
+}
+
+.ingredient-item::marker {
+  color: grey;
+  font-weight: 600;
+}
+
+.get-recipe-section {
+  display: flex;
+  margin-top: 2.5rem;
+  background-color: #f0efeb;
+  border-radius: 8px;
+  padding: 1.5rem;
+  justify-content: space-evenly;
+}
+
+.get-recipe-text-container h3 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #141413;
+  margin: 0;
+}
+
+.get-recipe-text-container p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #6b7280;
+  font-weight: 400;
+  margin: 0.5rem 0 0 0;
+}
+
+.get-recipe-btn {
+  background-color: #d17557;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 7.2rem;
+  padding: 9px 17px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  height: fit-content;
+  margin-top: 0.5rem;
+}
+
+.get-recipe-btn:hover {
+  background-color: #d17557;
+  opacity: 0.9;
+}
+
+.recipe-section {
+  color: #475467;
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.recipe-section ul li,
+.recipe-section ol li {
+  margin: 0.5rem 0;
+}

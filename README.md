@@ -1,12 +1,16 @@
-# chef-claude 🍳
+# React + Vite
 
-An AI-powered recipe generator that transforms a list of kitchen ingredients into full, structured cooking instructions[cite: 4, 5]. Built to explore modern frontend state management, stream parsing, and AI model integration[cite: 5].
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
-* **AI-Driven Generation:** Integrated with the `@huggingface/inference` SDK to connect user inputs directly to an asynchronous language model endpoint[cite: 5].
-* **Dynamic UI & State:** Developed using **React 19** functional components for fluid, responsive layout rendering and state management[cite: 5].
-* **Rich Text Rendering:** Uses `react-markdown` to parse and format raw AI stream outputs into readable, beautifully structured instructions[cite: 5].
-* **Modern Tooling:** Bundled with **Vite 8** for blazing-fast development workflows and strictly validated with **ESLint 10**[cite: 4, 5].
+Currently, two official plugins are available:
 
-## 🛠️ Tech Stack
-React 19, JavaScript (ES6+), Vite 8, ESLint 10, Hugging Face API, HTML/CSS
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
